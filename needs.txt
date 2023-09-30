@@ -1,0 +1,20 @@
+* pip install fastapi
+* pip install uvicorn
+  to run the server we do:-  uvicorn main:app --reload where main is the name of the file that you saved
+
+
+in order to use the swagger ui just like in spring boot we do:- on the search bar of chrome,
+we write after running the above command of uvicorn main:app --reload:- 127.0.0.1/docs#
+
+
+everything works pretty good uptil here!!
+
+next we see using the sqlalchemy database model:- create a file as database.py
+and in cmd we do:- pip install sqlalchemy
+
+we write the necessary actions for the connection to the database
+
+next we create the file models.py  and in main.py we import Depends, models also 
+
+
+
